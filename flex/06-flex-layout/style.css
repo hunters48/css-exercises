@@ -7,8 +7,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: space-between;
 }
 
 img {
@@ -52,14 +50,16 @@ input {
 
 
 .content {
+  flex: 1;
   display: flex;
   align-items: center;
+  justify-content: center ;
   flex-direction: column;
 }
 
 a:link {
   text-decoration: none;
-  color: black;
+  color: #666;
 }
 
 li {
@@ -70,6 +70,6 @@ li {
 }
 
 button {
-  padding: 10px;
+  padding: 8px 16px;
   font-weight: bold;
 }
